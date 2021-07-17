@@ -1,1 +1,1 @@
-# Run-Length-Encode-
+# Run-Length-Encode (Decodeing)
