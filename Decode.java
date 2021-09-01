@@ -2,7 +2,7 @@
   // 2(abc)  ,2(a)3(bc) 
   
 import java.util.*;
-class Decode
+public class Decode
 {
 	public static String RLEDecodeingString(String s)
 	{
