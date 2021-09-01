@@ -1,5 +1,5 @@
 //  Run Length Encode (Decodeing)
-  // (abc)2  ,(a)2(bc)3  
+  // 2(abc)  ,2(a)3(bc) 
   
 import java.util.*;
 class Decode
@@ -54,11 +54,11 @@ class Decode
 	}
 	public static void main(String[]args)
 	{
-		String res1;
+		String res;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String :");
-		res1 = RLEDecodeingString(sc.nextLine());
-		System.out.println(res1);
+		res = RLEDecodeingString(sc.nextLine());
+		System.out.println(res);
 		
 	}
 }
